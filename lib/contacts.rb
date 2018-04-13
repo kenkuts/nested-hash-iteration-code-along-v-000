@@ -18,7 +18,7 @@ def remove_strawberry(contacts)
     value.each do |key, data|
       if data.is_a? Array
         data.delete("strawberry")
-      end 
+      end
     end
   end
   contacts
